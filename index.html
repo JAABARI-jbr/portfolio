@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JAABARI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+   <link rel="shortcut icon" type="image/x-icon" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="splash">
+        <img class="splash-logo" src="logo.png" alt="JAABARI" width="180">
+        <h2 class="splash-name">JAABARI</h2>
+        <p class="splash-tagline" data-fr="CRÉATION WEB & DESIGN" data-en="WEB CREATION & DESIGN">CRÉATION WEB &amp; DESIGN</p>
+        <div class="splash-line"></div>
+    </div>
+
+    <header>
+        <div class="nav-inner">
+            <img class="logo" src="logo.png" alt="JAABARI">
+            <nav>
+                <a href="#home" data-fr="Accueil" data-en="Home">Accueil</a>
+                <a href="#about" data-fr="Compétences" data-en="Skills">Compétences</a>
+                <a href="#portfolio" data-fr="Portfolio" data-en="Portfolio">Portfolio</a>
+                <a href="#avis" data-fr="Avis" data-en="Reviews">Avis</a>
+                <a href="#services" data-fr="Services" data-en="Services">Services</a>
+                <a href="#contact" data-fr="Contact" data-en="Contact">Contact</a>
+                <a href="#extra" data-fr="Blog" data-en="Blog">Blog</a>
+                <a href="#extra" data-fr="Boutique" data-en="Shop">Boutique</a>
+            </nav>
+            <div class="nav-right">
+                <div class="lang-dropdown">
+                    <button class="lang-btn" type="button" id="langBtn">🌐 Français ▾</button>
+                    <div class="lang-menu">
+                        <a href="#" onclick="setLanguage('fr'); return false;">Français</a>
+                        <a href="#" onclick="setLanguage('en'); return false;">English</a>
+                    </div>
+                </div>
+                <a href="https://wa.me/212606911222" target="_blank" class="nav-cta" data-fr="Contactez-moi" data-en="Contact Me">Contactez-moi</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="side-rail">
+        <span class="side-rail-label" id="railLabel">Accueil</span>
+        <div class="side-rail-line" id="railDots">
+            <span class="dot big"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
+
+    <section id="home" class="hero">
+        <div class="hero-blob"></div>
+
+        <svg class="floating-shape shape-1" viewBox="0 0 60 60" width="60" height="60">
+            <polygon points="30,2 55,20 45,55 15,55 5,20" fill="none" stroke="#d6b476" stroke-width="1.2"/>
+        </svg>
+        <svg class="floating-shape shape-2" viewBox="0 0 60 60" width="70" height="70">
+            <circle cx="30" cy="30" r="26" fill="none" stroke="#d6b476" stroke-width="1" stroke-dasharray="4 4"/>
+        </svg>
+        <svg class="floating-shape shape-3" viewBox="0 0 40 40" width="40" height="40">
+            <polygon points="20,4 36,34 4,34" fill="none" stroke="#b3893f" stroke-width="1.2"/>
+        </svg>
+
+        <div class="hero-text">
+            <span class="badge" data-fr="BONJOUR, JE SUIS" data-en="HELLO, I'M">BONJOUR, JE SUIS</span>
+            <h2 class="hero-title">O.JAABARI<span class="cursor">|</span></h2>
+            <p class="hero-role" data-fr="Développeur Web &amp; Designer" data-en="Web Developer &amp; Designer">Développeur Web &amp; Designer</p>
+            <p class="hero-desc" data-fr="JAABARI — Je crée des sites web modernes, des logos et des visuels sur mesure pour aider les petites entreprises et créateurs à se démarquer en ligne." data-en="JAABARI — I build modern websites, logos, and custom visuals to help small businesses and creators stand out online.">JAABARI — Je crée des sites web modernes, des logos et des visuels
+                sur mesure pour aider les petites entreprises et créateurs à se démarquer en ligne. Né à Marrakech en 2007</p>
+            <div class="hero-buttons">
+                <a href="#services" class="btn-filled" data-fr="Voir mon Travail" data-en="View Projects">Voir mon Travail</a>
+                <a href="#contact" class="btn-outline" data-fr="Me Contacter" data-en="Contact Me">Me Contacter</a>
+            </div>
+        </div>
+
+        <div class="hero-photo">
+            <img src="profile.jpg" alt="JAABARI">
+        </div>
+    </section>
+
+    <a href="https://wa.me/212606911222" target="_blank" class="whatsapp-float" aria-label="Contacter sur WhatsApp">💬</a>
+
+    <section id="about">
+        <h2 data-fr="Compétences" data-en="Skills">Compétences</h2>
+        <p data-fr="Les outils que j'utilise au quotidien pour créer sites et visuels." data-en="The tools I use daily to build websites and visuals.">Les outils que j'utilise au quotidien pour créer sites et visuels.</p>
+
+        <div class="skills">
+            <div class="skill-badge"><img src="https://cdn.simpleicons.org/html5/E34F26" alt="HTML"> HTML</div>
+            <div class="skill-badge"><img src="css.png" alt="CSS"> CSS</div>
+            <div class="skill-badge"><img src="https://cdn.simpleicons.org/javascript/F7DF1E" alt="JavaScript"> JavaScript</div>
+            <div class="skill-badge"><img src="https://cdn.simpleicons.org/canva/00C4CC" alt="Canva"> Canva</div>
+            <div class="skill-badge"><img src="https://cdn.simpleicons.org/capcut/000000" alt="CapCut"> CapCut</div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2 data-fr="Portfolio" data-en="Portfolio">Portfolio</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-card">
+                <img class="portfolio-main-img" src="photo 1.png" alt="Site web Al Oum - Pâtisserie, page d'accueil">
+                <div class="portfolio-thumbs">
+                    <img src="photo 1.png" alt="Al Oum - Home" onclick="document.querySelector('.portfolio-main-img').src=this.src">
+                    <img src="photo 2.png" alt="Al Oum - notre histoire" onclick="document.querySelector('.portfolio-main-img').src=this.src">
+                    <img src="photo 3.png" alt="Al Oum - Galerie" onclick="document.querySelector('.portfolio-main-img').src=this.src">
+                    <img src="photo 4.png" alt="Al Oum - Avis clients" onclick="document.querySelector('.portfolio-main-img').src=this.src">
+                    <img src="photo 5.png" alt="Al Oum - Contact et horaires" onclick="document.querySelector('.portfolio-main-img').src=this.src">
+                    <img src="photo 6.png" alt="Al Oum - Carte et footer" onclick="document.querySelector('.portfolio-main-img').src=this.src">
+                </div>
+                <div class="portfolio-info">
+                    <h3>Al Oum — Pâtisserie</h3>
+                    <p data-fr="Site vitrine complet pour une pâtisserie à Marrakech : accueil, histoire, carte des prix, galerie, avis clients et contact avec carte." data-en="Full showcase website for a pastry shop in Marrakech: home, story, price list, gallery, customer reviews, and contact with map.">Site vitrine complet pour une pâtisserie à Marrakech : accueil, histoire, carte des prix, galerie, avis clients et contact avec carte.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2 data-fr="Nos Services" data-en="Our Services">Nos Services</h2>
+
+        <div class="service-card">
+            <h3 data-fr="Création de sites web" data-en="Website Creation">Création de sites web</h3>
+            <p data-fr="Sites vitrines simples et modernes, adaptés à tous les écrans." data-en="Simple, modern showcase websites, adapted to every screen.">Sites vitrines simples et modernes, adaptés à tous les écrans.</p>
+        </div>
+
+        <div class="service-card">
+            <h3 data-fr="Design graphique" data-en="Graphic Design">Design graphique</h3>
+            <p data-fr="Création d'affiches, de miniatures et de logos personnalisés." data-en="Creation of posters, thumbnails, and custom logos.">Création d'affiches, de miniatures et de logos personnalisés.</p>
+        </div>
+
+        <div class="service-card">
+            <h3 data-fr="Maintenance" data-en="Maintenance">Maintenance</h3>
+            <p data-fr="Mises à jour, corrections de bugs, ajout de nouvelles fonctionnalités." data-en="Updates, bug fixes, and new feature additions.">Mises à jour, corrections de bugs, ajout de nouvelles fonctionnalités.</p>
+        </div>
+
+        <h3 class="gallery-title" data-fr="Quelques réalisations" data-en="Some of my work">Quelques réalisations</h3>
+        <div class="gallery">
+            <div class="gallery-item">
+                <img src="https://f.top4top.io/p_3860n6z511.png" alt="Création web" width="200" height="200">
+                <p data-fr="Création web" data-en="Web creation">Création web</p>
+            </div>
+            <div class="gallery-item">
+                <img src="https://g.top4top.io/p_38602x9bd1.png" alt="Création affiche" width="200" height="200">
+                <p data-fr="Création affiche" data-en="Poster creation">Création affiche</p>
+            </div>
+            <div class="gallery-item">
+                <img src="https://h.top4top.io/p_3860ix3s33.jpg" alt="Création logo" width="200" height="200">
+                <p data-fr="Création logo" data-en="Logo creation">Création logo</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="avis">
+        <h2 data-fr="Avis" data-en="Reviews">Avis</h2>
+        <div class="testimonials">
+            <div class="testimonial-card">
+                <p data-fr="&quot;Site livré rapidement et exactement comme je l'imaginais. Très à l'écoute.&quot;" data-en="&quot;Site delivered quickly and exactly as I imagined it. Very attentive.&quot;">"Site livré rapidement et exactement comme je l'imaginais. Très à l'écoute."</p>
+                <span data-fr="— Client, création de site vitrine" data-en="— Client, showcase website">— Client, création de site vitrine</span>
+            </div>
+            <div class="testimonial-card">
+                <p data-fr="&quot;Le logo qu'il m'a créé correspond parfaitement à mon image de marque.&quot;" data-en="&quot;The logo he created for me perfectly matches my brand image.&quot;">"Le logo qu'il m'a créé correspond parfaitement à mon image de marque."</p>
+                <span data-fr="— Client, design graphique" data-en="— Client, graphic design">— Client, design graphique</span>
+            </div>
+        </div>
+    </section>
+
+    <section id="boutique" style="max-width: 1100px;">
+    <h2 data-fr="Boutique" data-en="Shop">Boutique</h2>
+    <div class="pricing-grid">
+        <div class="price-card">
+            <div class="price-icon">🌐</div>
+            <h3 data-fr="Basic Website" data-en="Basic Website">Basic Website</h3>
+            <p class="price-tag" data-fr="À partir de 500 DH" data-en="Starting at 500 DH">À partir de 500 DH</p>
+            <ul>
+                <li data-fr="Design responsive" data-en="Responsive design">Design responsive</li>
+                <li data-fr="Formulaire de contact" data-en="Contact form">Formulaire de contact</li>
+                <li data-fr="Livraison rapide" data-en="Fast delivery">Livraison rapide</li>
+            </ul>
+        </div>
+
+        <div class="price-card featured">
+            <span class="price-star">⭐</span>
+            <div class="price-icon">💻</div>
+            <h3 data-fr="Business Website" data-en="Business Website">Business Website</h3>
+            <p class="price-tag" data-fr="À partir de 1 500 DH" data-en="Starting at 1,500 DH">À partir de 1 500 DH</p>
+            <ul>
+                <li data-fr="Design personnalisé" data-en="Custom design">Design personnalisé</li>
+                <li data-fr="Optimisation SEO" data-en="SEO optimization">Optimisation SEO</li>
+                <li data-fr="Hébergement et nom de domaine (option)" data-en="Hosting and domain name (optional)">Hébergement et nom de domaine (option)</li>
+            </ul>
+        </div>
+
+        <div class="price-card">
+            <div class="price-icon">📱</div>
+            <h3 data-fr="Application" data-en="Application">Application</h3>
+            <p class="price-tag" data-fr="À partir de 2 500 DH" data-en="Starting at 2,500 DH">À partir de 2 500 DH</p>
+            <ul>
+                <li data-fr="Application Android" data-en="Android application">Application Android</li>
+                <li data-fr="Interface moderne" data-en="Modern interface">Interface moderne</li>
+                <li data-fr="Base de données" data-en="Database">Base de données</li>
+                <li data-fr="Publication sur demande" data-en="Publishing on request">Publication sur demande</li>
+            </ul>
+        </div>
+
+        <div class="price-card">
+            <div class="price-icon">🎨</div>
+            <h3 data-fr="Logo" data-en="Logo">Logo</h3>
+            <p class="price-tag" data-fr="À partir de 150 DH" data-en="Starting at 150 DH">À partir de 150 DH</p>
+            <ul>
+                <li data-fr="Logo unique" data-en="Unique logo">Logo unique</li>
+                <li data-fr="3 propositions" data-en="3 proposals">3 propositions</li>
+                <li data-fr="Fichiers PNG, SVG et PDF" data-en="PNG, SVG, and PDF files">Fichiers PNG, SVG et PDF</li>
+                <li data-fr="Révisions incluses" data-en="Revisions included">Révisions incluses</li>
+            </ul>
+        </div>
+
+        <div class="price-card">
+            <div class="price-icon">🖼️</div>
+            <h3 data-fr="Affiche / Flyer" data-en="Poster / Flyer">Affiche / Flyer</h3>
+            <p class="price-tag" data-fr="À partir de 100 DH" data-en="Starting at 100 DH">À partir de 100 DH</p>
+            <ul>
+                <li data-fr="Affiche publicitaire" data-en="Advertising poster">Affiche publicitaire</li>
+                <li data-fr="Story Instagram" data-en="Instagram story">Story Instagram</li>
+                <li data-fr="Publication Facebook" data-en="Facebook post">Publication Facebook</li>
+                <li data-fr="Fichiers HD" data-en="HD files">Fichiers HD</li>
+                
+            </ul>
+        </div>
+
+        <div class="price-card">
+            <div class="price-icon">👨‍💻</div>
+            <h3 data-fr="Portfolio" data-en="Portfolio">Portfolio</h3>
+            <p class="price-tag" data-fr="À partir de 800 DH" data-en="Starting at 800 DH">À partir de 800 DH</p>
+            <ul>
+                <li data-fr="Portfolio professionnel" data-en="Professional portfolio">Portfolio professionnel</li>
+                <li data-fr="Animations modernes" data-en="Modern animations">Animations modernes</li>
+                <li data-fr="Responsive" data-en="Responsive">Responsive</li>
+                <li data-fr="Formulaire de contact" data-en="Contact form">Formulaire de contact</li>
+                <li data-fr="Optimisation SEO" data-en="SEO optimization">Optimisation SEO</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+    <section id="contact">
+        <h2 data-fr="Contact" data-en="Contact">Contact</h2>
+        <p data-fr="Une question, un projet ? Contacte-moi directement." data-en="A question, a project? Get in touch directly.">Une question, un projet ? Contacte-moi directement.</p>
+
+        <div class="contact-info">
+            <h3>JAABARI</h3>
+
+            <a href="https://wa.me/212606911222" target="_blank" class="contact-btn whatsapp" data-fr="📱 WhatsApp : +212 606-911222" data-en="📱 WhatsApp: +212 606-911222">
+                📱 WhatsApp : +212 606-911222
+            </a>
+
+            <a href="https://www.instagram.com/jbr_dev/" target="_blank" class="contact-btn instagram" data-fr="📷 Instagram : @jbr_dev" data-en="📷 Instagram: @jbr_dev">
+                📷 Instagram : @jbr_dev
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p data-fr="© 2026 JAABARI — Tous droits réservés" data-en="© 2026 JAABARI — All rights reserved">&copy; 2026 JAABARI — Tous droits réservés</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
