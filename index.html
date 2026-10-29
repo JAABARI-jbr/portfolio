@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="JAABARI — Création de sites web, applications Android, jeux vidéo et design graphique à Marrakech.">
     <title>JAABARI</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
-   <link rel="shortcut icon" type="image/x-icon" href="new-logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="shortcut icon" type="image/x-icon" href="new-logo.png">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -14,7 +17,7 @@
     <div class="splash">
         <img class="splash-logo" src="new-logo.png" alt="JAABARI" width="180">
         <h2 class="splash-name">JAABARI</h2>
-        <p class="splash-tagline" data-fr="CRÉATION WEB & JEUX & DESIGN " data-en="WEB CREATION & GAMES & DESIGN">CRÉATION WEB &amp; DESIGN</p>
+        <p class="splash-tagline" data-fr="CRÉATION WEB &amp; JEUX &amp; DESIGN" data-en="WEB CREATION &amp; GAMES &amp; DESIGN">CRÉATION WEB &amp; JEUX &amp; DESIGN</p>
         <div class="splash-line"></div>
     </div>
 
@@ -27,9 +30,8 @@
                 <a href="#portfolio" data-fr="Portfolio" data-en="Portfolio">Portfolio</a>
                 <a href="#avis" data-fr="Avis" data-en="Reviews">Avis</a>
                 <a href="#services" data-fr="Services" data-en="Services">Services</a>
+                <a href="#boutique" data-fr="Boutique" data-en="Shop">Boutique</a>
                 <a href="#contact" data-fr="Contact" data-en="Contact">Contact</a>
-                <a href="#extra" data-fr="Blog" data-en="Blog">Blog</a>
-                <a href="#extra" data-fr="Boutique" data-en="Shop">Boutique</a>
             </nav>
             <div class="nav-right">
                 <div class="lang-dropdown">
@@ -39,7 +41,7 @@
                         <a href="#" onclick="setLanguage('en'); return false;">English</a>
                     </div>
                 </div>
-                <a href="https://wa.me/212606911222" target="_blank" class="nav-cta" data-fr="Contactez-moi" data-en="Contact Me">Contactez-moi</a>
+                <a href="https://wa.me/212606911222" target="_blank" rel="noopener noreferrer" class="nav-cta" data-fr="Contactez-moi" data-en="Contact Me">Contactez-moi</a>
             </div>
         </div>
     </header>
@@ -71,10 +73,10 @@
         <div class="hero-text">
             <span class="badge" data-fr="BONJOUR, JE SUIS" data-en="HELLO, I'M">BONJOUR, JE SUIS</span>
             <h2 class="hero-title">O.JAABARI<span class="cursor">|</span></h2>
-            <p class="hero-role" data-fr="Développeur Web &amp; Designer  &amp; Développeur games" data-en="Web Developer &amp; Designer">Développeur Web &amp; Designer</p>
-            <p class="hero-desc" data-fr="JAABARI — Donnez vie à vos projets. Je conçois des sites web modernes, des jeux vidéo et des visuels uniques pour faire briller les entrepreneurs et créateurs en ligne..">JAABARI — Donnez vie à vos projets. Je conçois des sites web modernes, des jeux vidéo et des visuels uniques pour faire briller les entrepreneurs et créateurs en ligne.
+            <p class="hero-role" data-fr="Développeur Web &amp; Designer &amp; Développeur de jeux" data-en="Web Developer &amp; Designer &amp; Game Developer">Développeur Web &amp; Designer &amp; Développeur de jeux</p>
+            <p class="hero-desc" data-fr="JAABARI — Donnez vie à vos projets. Je conçois des sites web modernes, des jeux vidéo et des visuels uniques pour faire briller les entrepreneurs et créateurs en ligne." data-en="JAABARI — Bring your projects to life. I build modern websites, video games and unique visuals to help entrepreneurs and creators shine online.">JAABARI — Donnez vie à vos projets. Je conçois des sites web modernes, des jeux vidéo et des visuels uniques pour faire briller les entrepreneurs et créateurs en ligne.</p>
             <div class="hero-buttons">
-                <a href="#services" class="btn-filled" data-fr="Voir mon Travail" data-en="View Projects">Voir mon Travail</a>
+                <a href="#portfolio" class="btn-filled" data-fr="Voir mon Travail" data-en="View Projects">Voir mon Travail</a>
                 <a href="#contact" class="btn-outline" data-fr="Me Contacter" data-en="Contact Me">Me Contacter</a>
             </div>
         </div>
@@ -84,7 +86,7 @@
         </div>
     </section>
 
-    <a href="https://wa.me/212606911222" target="_blank" class="whatsapp-float" aria-label="Contacter sur WhatsApp">💬</a>
+    <a href="https://wa.me/212606911222" target="_blank" rel="noopener noreferrer" class="whatsapp-float" aria-label="Contacter sur WhatsApp">💬</a>
 
     <section id="about">
         <h2 data-fr="Compétences" data-en="Skills">Compétences</h2>
@@ -94,54 +96,105 @@
             <div class="skill-badge"><img src="https://cdn.simpleicons.org/html5/E34F26" alt="HTML"> HTML</div>
             <div class="skill-badge"><img src="css.png" alt="CSS"> CSS</div>
             <div class="skill-badge"><img src="https://cdn.simpleicons.org/javascript/F7DF1E" alt="JavaScript"> JavaScript</div>
-             <div class="skill-badge"><img src="https://cdn.simpleicons.org/blender/000000" alt="Blender"> Blender</div>
-             <div class="skill-badge"><img src="https://cdn.simpleicons.org/unity/000000" alt="Unity"> Unity</div>
-             <div class="skill-badge"><img src="https://k.top4top.io/p_3933e4lrn1.png" alt="GitHub"> GitHub</div>
-              <div class="skill-badge"><img src="https://cdn.simpleicons.org/python/000000" alt="Python"> Python</div>
-            
-             
+            <div class="skill-badge"><img src="https://cdn.simpleicons.org/blender/000000" alt="Blender"> Blender</div>
+            <div class="skill-badge"><img src="https://cdn.simpleicons.org/unity/000000" alt="Unity"> Unity</div>
+            <div class="skill-badge"><img src="https://k.top4top.io/p_3933e4lrn1.png" alt="GitHub"> GitHub</div>
+            <div class="skill-badge"><img src="https://cdn.simpleicons.org/python/000000" alt="Python"> Python</div>
         </div>
     </section>
 
     <section id="portfolio">
-        <h2 data-fr="dev site web" data-en="Portfolio">Portfolio</h2>
+        <h2 data-fr="Mes projets" data-en="My Projects">Mes projets</h2>
+
         <div class="portfolio-grid">
+
+            <!-- PROJET 1 : AL OUM -->
             <div class="portfolio-card">
-                <img class="portfolio-main-img" src="photo 1.png" alt="Site web Al Oum - Pâtisserie, page d'accueil">
+                <img class="portfolio-main-img"
+                     src="photo%201.png"
+                     alt="Site web Al Oum - Pâtisserie, page d'accueil">
+
                 <div class="portfolio-thumbs">
-                    <img src="photo 1.png" alt="Al Oum - Home" onclick="document.querySelector('.portfolio-main-img').src=this.src">
-                    <img src="photo 2.png" alt="Al Oum - notre histoire" onclick="document.querySelector('.portfolio-main-img').src=this.src">
-                    <img src="photo 3.png" alt="Al Oum - Galerie" onclick="document.querySelector('.portfolio-main-img').src=this.src">
-                    <img src="photo 4.png" alt="Al Oum - Avis clients" onclick="document.querySelector('.portfolio-main-img').src=this.src">
-                    <img src="photo 5.png" alt="Al Oum - Contact et horaires" onclick="document.querySelector('.portfolio-main-img').src=this.src">
-                    <img src="photo 6.png" alt="Al Oum - Carte et footer" onclick="document.querySelector('.portfolio-main-img').src=this.src">
+                    <img src="photo%201.png" alt="Al Oum - Accueil"
+                         onclick="this.closest('.portfolio-card').querySelector('.portfolio-main-img').src=this.src">
+                    <img src="photo%202.png" alt="Al Oum - Notre histoire"
+                         onclick="this.closest('.portfolio-card').querySelector('.portfolio-main-img').src=this.src">
+                    <img src="photo%203.png" alt="Al Oum - Galerie"
+                         onclick="this.closest('.portfolio-card').querySelector('.portfolio-main-img').src=this.src">
+                    <img src="photo%204.png" alt="Al Oum - Avis clients"
+                         onclick="this.closest('.portfolio-card').querySelector('.portfolio-main-img').src=this.src">
+                    <img src="photo%205.png" alt="Al Oum - Contact"
+                         onclick="this.closest('.portfolio-card').querySelector('.portfolio-main-img').src=this.src">
+                    <img src="photo%206.png" alt="Al Oum - Carte et footer"
+                         onclick="this.closest('.portfolio-card').querySelector('.portfolio-main-img').src=this.src">
                 </div>
+
                 <div class="portfolio-info">
                     <h3>Al Oum — Pâtisserie</h3>
-                    <p data-fr="Site vitrine complet pour une pâtisserie à Marrakech : accueil, histoire, carte des prix, galerie, avis clients et contact avec carte." data-en="Full showcase website for a pastry shop in Marrakech: home, story, price list, gallery, customer reviews, and contact with map.">Site vitrine complet pour une pâtisserie à Marrakech : accueil, histoire, carte des prix, galerie, avis clients et contact avec carte.</p>
+                    <p data-fr="Site vitrine complet pour une pâtisserie à Marrakech : accueil, histoire, carte des prix, galerie, avis clients et contact avec carte."
+                       data-en="A complete showcase website for a pastry shop in Marrakech, featuring a home page, story, price list, gallery, reviews and contact map.">
+                        Site vitrine complet pour une pâtisserie à Marrakech :
+                        accueil, histoire, carte des prix, galerie, avis clients
+                        et contact avec carte.
+                    </p>
                 </div>
             </div>
+
+            <!-- PROJET 2 : JIBI -->
+            <div class="portfolio-card">
+                <img class="portfolio-main-img"
+                     src="jibi_icon.png"
+                     alt="JIBI - Application mobile de gestion d'argent">
+
+                <div class="portfolio-thumbs">
+                    <img src="JIBI%20-%20Accueil.jpg" alt="JIBI - Accueil"
+                         onclick="this.closest('.portfolio-card').querySelector('.portfolio-main-img').src=this.src">
+                    <img src="JIBI%202.jpg" alt="JIBI - Historique"
+                         onclick="this.closest('.portfolio-card').querySelector('.portfolio-main-img').src=this.src">
+                    <img src="JIBI%203.jpg" alt="JIBI - Objectifs"
+                         onclick="this.closest('.portfolio-card').querySelector('.portfolio-main-img').src=this.src">
+                    <img src="JIBI%204.jpg" alt="JIBI - Statistiques"
+                         onclick="this.closest('.portfolio-card').querySelector('.portfolio-main-img').src=this.src">
+                </div>
+
+                <div class="portfolio-info">
+                    <h3>JIBI — جيبي</h3>
+
+                    <p data-fr="Application Android de gestion d'argent personnel : suivi du solde, enregistrement des revenus et dépenses, statistiques mensuelles et objectifs d'épargne."
+                       data-en="An Android personal finance app with balance tracking, income and expense records, monthly statistics and savings goals.">
+                        Application Android de gestion d'argent personnel :
+                        suivi du solde, revenus, dépenses, statistiques mensuelles
+                        et objectifs d'épargne.
+                    </p>
+
+                    <a href="https://www.mediafire.com/file/pbqiljfavnbcyc8/JIBI.apk/file"
+                       target="_blank"
+                       rel="noopener noreferrer"
+                       class="download-btn">
+                        <i class="fas fa-download"></i>
+                        <span data-fr="Télécharger JIBI (APK)" data-en="Download JIBI (APK)">Télécharger JIBI (APK)</span>
+                    </a>
+
+                    <p class="download-note" data-fr="Application Android · Fichier APK" data-en="Android app · APK file">
+                        Application Android · Fichier APK
+                    </p>
+                </div>
+            </div>
+
         </div>
 
+        <!-- JEUX VIDÉO -->
+        <h2 data-fr="Jeux vidéo" data-en="Games">Jeux vidéo</h2>
 
-
-
-<h2 data-fr="dev games" data-en="GRAND THEFT KECH">Portfolio</h2>
         <div class="portfolio-grid">
             <div class="portfolio-card">
-                <img class="portfolio-main-img" src="Game-logo.png" alt="GRAND THEFT KECH ">
+                <img class="portfolio-main-img" src="Game-logo.png" alt="GRAND THEFT KECH">
                 <div class="portfolio-info">
                     <h3>GRAND THEFT KECH</h3>
-                    <p data-fr="En cours de développement..." data-en="In development...">Site vitrine complet pour une pâtisserie à Marrakech : accueil, histoire, carte des prix, galerie, avis clients et contact avec carte.</p>
+                    <p data-fr="En cours de développement..." data-en="In development...">En cours de développement...</p>
                 </div>
             </div>
         </div>
-
-
-
-
-
-
     </section>
 
     <section id="services">
@@ -165,15 +218,15 @@
         <h3 class="gallery-title" data-fr="Quelques réalisations" data-en="Some of my work">Quelques réalisations</h3>
         <div class="gallery">
             <div class="gallery-item">
-                <img src="https://f.top4top.io/p_3860n6z511.png" alt="Création web" width="200" height="200">
+                <img src="https://f.top4top.io/p_3860n6z511.png" alt="Création web" width="200" height="200" loading="lazy">
                 <p data-fr="Création web" data-en="Web creation">Création web</p>
             </div>
             <div class="gallery-item">
-                <img src="https://g.top4top.io/p_38602x9bd1.png" alt="Création affiche" width="200" height="200">
+                <img src="https://g.top4top.io/p_38602x9bd1.png" alt="Création affiche" width="200" height="200" loading="lazy">
                 <p data-fr="Création affiche" data-en="Poster creation">Création affiche</p>
             </div>
             <div class="gallery-item">
-                <img src="https://h.top4top.io/p_3860ix3s33.jpg" alt="Création logo" width="200" height="200">
+                <img src="https://h.top4top.io/p_3860ix3s33.jpg" alt="Création logo" width="200" height="200" loading="lazy">
                 <p data-fr="Création logo" data-en="Logo creation">Création logo</p>
             </div>
         </div>
@@ -194,82 +247,81 @@
     </section>
 
     <section id="boutique" style="max-width: 1100px;">
-    <h2 data-fr="Boutique" data-en="Shop">Boutique</h2>
-    <div class="pricing-grid">
-        <div class="price-card">
-            <div class="price-icon">🌐</div>
-            <h3 data-fr="Basic Website" data-en="Basic Website">Basic Website</h3>
-            <p class="price-tag" data-fr="À partir de 500 DH" data-en="Starting at 500 DH">À partir de 500 DH</p>
-            <ul>
-                <li data-fr="Design responsive" data-en="Responsive design">Design responsive</li>
-                <li data-fr="Formulaire de contact" data-en="Contact form">Formulaire de contact</li>
-                <li data-fr="Livraison rapide" data-en="Fast delivery">Livraison rapide</li>
-            </ul>
-        </div>
+        <h2 data-fr="Boutique" data-en="Shop">Boutique</h2>
+        <div class="pricing-grid">
+            <div class="price-card">
+                <div class="price-icon">🌐</div>
+                <h3 data-fr="Basic Website" data-en="Basic Website">Basic Website</h3>
+                <p class="price-tag" data-fr="À partir de 500 DH" data-en="Starting at 500 DH">À partir de 500 DH</p>
+                <ul>
+                    <li data-fr="Design responsive" data-en="Responsive design">Design responsive</li>
+                    <li data-fr="Formulaire de contact" data-en="Contact form">Formulaire de contact</li>
+                    <li data-fr="Livraison rapide" data-en="Fast delivery">Livraison rapide</li>
+                </ul>
+            </div>
 
-        <div class="price-card featured">
-            <span class="price-star">⭐</span>
-            <div class="price-icon">💻</div>
-            <h3 data-fr="Business Website" data-en="Business Website">Business Website</h3>
-            <p class="price-tag" data-fr="À partir de 1 500 DH" data-en="Starting at 1,500 DH">À partir de 1 500 DH</p>
-            <ul>
-                <li data-fr="Design personnalisé" data-en="Custom design">Design personnalisé</li>
-                <li data-fr="Optimisation SEO" data-en="SEO optimization">Optimisation SEO</li>
-                <li data-fr="Hébergement et nom de domaine (option)" data-en="Hosting and domain name (optional)">Hébergement et nom de domaine (option)</li>
-            </ul>
-        </div>
+            <div class="price-card featured">
+                <span class="price-star">⭐</span>
+                <div class="price-icon">💻</div>
+                <h3 data-fr="Business Website" data-en="Business Website">Business Website</h3>
+                <p class="price-tag" data-fr="À partir de 1 500 DH" data-en="Starting at 1,500 DH">À partir de 1 500 DH</p>
+                <ul>
+                    <li data-fr="Design personnalisé" data-en="Custom design">Design personnalisé</li>
+                    <li data-fr="Optimisation SEO" data-en="SEO optimization">Optimisation SEO</li>
+                    <li data-fr="Hébergement et nom de domaine (option)" data-en="Hosting and domain name (optional)">Hébergement et nom de domaine (option)</li>
+                </ul>
+            </div>
 
-        <div class="price-card">
-            <div class="price-icon">📱</div>
-            <h3 data-fr="Application" data-en="Application">Application</h3>
-            <p class="price-tag" data-fr="À partir de 2 500 DH" data-en="Starting at 2,500 DH">À partir de 2 500 DH</p>
-            <ul>
-                <li data-fr="Application Android" data-en="Android application">Application Android</li>
-                <li data-fr="Interface moderne" data-en="Modern interface">Interface moderne</li>
-                <li data-fr="Base de données" data-en="Database">Base de données</li>
-                <li data-fr="Publication sur demande" data-en="Publishing on request">Publication sur demande</li>
-            </ul>
-        </div>
+            <div class="price-card">
+                <div class="price-icon">📱</div>
+                <h3 data-fr="Application" data-en="Application">Application</h3>
+                <p class="price-tag" data-fr="À partir de 2 500 DH" data-en="Starting at 2,500 DH">À partir de 2 500 DH</p>
+                <ul>
+                    <li data-fr="Application Android" data-en="Android application">Application Android</li>
+                    <li data-fr="Interface moderne" data-en="Modern interface">Interface moderne</li>
+                    <li data-fr="Base de données" data-en="Database">Base de données</li>
+                    <li data-fr="Publication sur demande" data-en="Publishing on request">Publication sur demande</li>
+                </ul>
+            </div>
 
-        <div class="price-card">
-            <div class="price-icon">🎨</div>
-            <h3 data-fr="Logo" data-en="Logo">Logo</h3>
-            <p class="price-tag" data-fr="À partir de 150 DH" data-en="Starting at 150 DH">À partir de 150 DH</p>
-            <ul>
-                <li data-fr="Logo unique" data-en="Unique logo">Logo unique</li>
-                <li data-fr="3 propositions" data-en="3 proposals">3 propositions</li>
-                <li data-fr="Fichiers PNG, SVG et PDF" data-en="PNG, SVG, and PDF files">Fichiers PNG, SVG et PDF</li>
-                <li data-fr="Révisions incluses" data-en="Revisions included">Révisions incluses</li>
-            </ul>
-        </div>
+            <div class="price-card">
+                <div class="price-icon">🎨</div>
+                <h3 data-fr="Logo" data-en="Logo">Logo</h3>
+                <p class="price-tag" data-fr="À partir de 150 DH" data-en="Starting at 150 DH">À partir de 150 DH</p>
+                <ul>
+                    <li data-fr="Logo unique" data-en="Unique logo">Logo unique</li>
+                    <li data-fr="3 propositions" data-en="3 proposals">3 propositions</li>
+                    <li data-fr="Fichiers PNG, SVG et PDF" data-en="PNG, SVG, and PDF files">Fichiers PNG, SVG et PDF</li>
+                    <li data-fr="Révisions incluses" data-en="Revisions included">Révisions incluses</li>
+                </ul>
+            </div>
 
-        <div class="price-card">
-            <div class="price-icon">🖼️</div>
-            <h3 data-fr="Affiche / Flyer" data-en="Poster / Flyer">Affiche / Flyer</h3>
-            <p class="price-tag" data-fr="À partir de 100 DH" data-en="Starting at 100 DH">À partir de 100 DH</p>
-            <ul>
-                <li data-fr="Affiche publicitaire" data-en="Advertising poster">Affiche publicitaire</li>
-                <li data-fr="Story Instagram" data-en="Instagram story">Story Instagram</li>
-                <li data-fr="Publication Facebook" data-en="Facebook post">Publication Facebook</li>
-                <li data-fr="Fichiers HD" data-en="HD files">Fichiers HD</li>
-                
-            </ul>
-        </div>
+            <div class="price-card">
+                <div class="price-icon">🖼️</div>
+                <h3 data-fr="Affiche / Flyer" data-en="Poster / Flyer">Affiche / Flyer</h3>
+                <p class="price-tag" data-fr="À partir de 100 DH" data-en="Starting at 100 DH">À partir de 100 DH</p>
+                <ul>
+                    <li data-fr="Affiche publicitaire" data-en="Advertising poster">Affiche publicitaire</li>
+                    <li data-fr="Story Instagram" data-en="Instagram story">Story Instagram</li>
+                    <li data-fr="Publication Facebook" data-en="Facebook post">Publication Facebook</li>
+                    <li data-fr="Fichiers HD" data-en="HD files">Fichiers HD</li>
+                </ul>
+            </div>
 
-        <div class="price-card">
-            <div class="price-icon">👨‍💻</div>
-            <h3 data-fr="Portfolio" data-en="Portfolio">Portfolio</h3>
-            <p class="price-tag" data-fr="À partir de 800 DH" data-en="Starting at 800 DH">À partir de 800 DH</p>
-            <ul>
-                <li data-fr="Portfolio professionnel" data-en="Professional portfolio">Portfolio professionnel</li>
-                <li data-fr="Animations modernes" data-en="Modern animations">Animations modernes</li>
-                <li data-fr="Responsive" data-en="Responsive">Responsive</li>
-                <li data-fr="Formulaire de contact" data-en="Contact form">Formulaire de contact</li>
-                <li data-fr="Optimisation SEO" data-en="SEO optimization">Optimisation SEO</li>
-            </ul>
+            <div class="price-card">
+                <div class="price-icon">👨‍💻</div>
+                <h3 data-fr="Portfolio" data-en="Portfolio">Portfolio</h3>
+                <p class="price-tag" data-fr="À partir de 800 DH" data-en="Starting at 800 DH">À partir de 800 DH</p>
+                <ul>
+                    <li data-fr="Portfolio professionnel" data-en="Professional portfolio">Portfolio professionnel</li>
+                    <li data-fr="Animations modernes" data-en="Modern animations">Animations modernes</li>
+                    <li data-fr="Responsive" data-en="Responsive">Responsive</li>
+                    <li data-fr="Formulaire de contact" data-en="Contact form">Formulaire de contact</li>
+                    <li data-fr="Optimisation SEO" data-en="SEO optimization">Optimisation SEO</li>
+                </ul>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
 
     <section id="contact">
         <h2 data-fr="Contact" data-en="Contact">Contact</h2>
@@ -278,11 +330,11 @@
         <div class="contact-info">
             <h3>JAABARI</h3>
 
-            <a href="https://wa.me/212606911222" target="_blank" class="contact-btn whatsapp" data-fr="📱 WhatsApp : +212 606-911222" data-en="📱 WhatsApp: +212 606-911222">
+            <a href="https://wa.me/212606911222" target="_blank" rel="noopener noreferrer" class="contact-btn whatsapp" data-fr="📱 WhatsApp : +212 606-911222" data-en="📱 WhatsApp: +212 606-911222">
                 📱 WhatsApp : +212 606-911222
             </a>
 
-            <a href="https://www.instagram.com/jbr_dev/" target="_blank" class="contact-btn instagram" data-fr="📷 Instagram : @jbr_dev" data-en="📷 Instagram: @jbr_dev">
+            <a href="https://www.instagram.com/jbr_dev/" target="_blank" rel="noopener noreferrer" class="contact-btn instagram" data-fr="📷 Instagram : @jbr_dev" data-en="📷 Instagram: @jbr_dev">
                 📷 Instagram : @jbr_dev
             </a>
         </div>
